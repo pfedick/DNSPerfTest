@@ -1,26 +1,11 @@
 # DNSPerfTest
-Toolsuite for testing performance of nameserver infrastructure
+DNSPerfTest was intended to get a complete toolsuite for testing performance of nameserver infrastructure.
 
-# Build and install
-./configure
-make
-make install
+Unfortunately I don't have any time to put further work in this project.
+Therefore I seperated the finished parts of it in two new projects:
 
-By default the binaries will be installed in /usr/local/bin. If you want them
-somewhere else (e.g. /usr/bin), please use ./configure --prefix:
-
-./configure --prefix=/usr
-
-# Uninstall
-make uninstall
-
-# dstress
-to be deocumented
-
-# udppingpong
-to be deocumented
-
-
-
-
-
+- updpingpong: https://github.com/pfedick/udppingpong
+  Tools for measuring udp throughput
+  
+- dnspecker: https://github.com/pfedick/dnspecker
+  Tool for testing performance of nameserver
